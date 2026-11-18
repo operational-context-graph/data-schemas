@@ -19,8 +19,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - language: javascript-typescript
-            build-mode: none
+          - language: actions
           # Uncomment when a supported language is added to this repository.
           # CodeQL supports: c-cpp, csharp, go, java-kotlin, javascript-typescript, python, ruby, rust, swift
           # - language: javascript-typescript
