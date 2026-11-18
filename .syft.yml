@@ -1,0 +1,7 @@
+# Syft SBOM Generation Configuration
+# Complete configuration file with all available options
+# See: https://github.com/anchore/syft
+
+javascript:
+  search-remote-licenses: true
+  npm-base-url: "https://registry.npmjs.org"

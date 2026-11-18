@@ -1,9 +1,3 @@
-<!--
-SPDX-FileCopyrightText: 2026 SAP SE or an SAP affiliate company and Operational Context Graph contributors
-
-SPDX-License-Identifier: Apache-2.0
--->
-
 # Agent Guidelines
 
 ## Writing standards
@@ -78,6 +72,6 @@ Use it when at least one applies:
 
 Skip it when all of these hold: scope is simple and well-bounded, the component is short-lived or throwaway, and no spec artifact is needed downstream. A plain prompt is enough.
 
-Commit `openspec/specs/` and `openspec/config.yaml`. 
+Commit `openspec/specs/` and `openspec/config.yaml`.
 
 Applying a change is not a review bypass. `/opsx:apply` turns the spec into code — run it under the developer agent and the risk-based workflow above. Choose the change tier, then follow `developer → code-reviewer → verification`, adding the security reviewer as the final reviewer for High and Design tiers.
